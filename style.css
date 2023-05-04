@@ -1,0 +1,90 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Header */
+header {
+    margin-bottom: 1rem;
+}
+
+/* Navigation */
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.navbar .nav-item.active .nav-link {
+    color: #fff;
+    background-color: #3498db;
+}
+
+.navbar .nav-link:hover {
+    color: #fff;
+    background-color: #2980b9;
+}
+
+/* Titles */
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+/* Projects Grid Layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.project-card .card {
+    border: none;
+    border-radius: 5px;
+    transition: box-shadow .3s;
+}
+
+.project-card .card:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.project-card .card-title {
+    font-weight: 700;
+}
+
+.project-card .card-text {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Footer */
+.footer {
+    margin-top: 2rem;
+}
